@@ -1,0 +1,9 @@
+colorama>=0.4.6
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+tldextract>=5.1.1
+whois>=0.9.27
+urllib3>=2.0.0
+reportlab>=4.0.0
+schedule>=1.2.0
+pyperclip>=1.8.2
