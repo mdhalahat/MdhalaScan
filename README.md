@@ -21,7 +21,7 @@ A professional-grade command-line tool for detecting phishing threats in URLs , 
 
 ### Quick Install (Linux/Mac)
 ```bash
-git clone https://github.com/mdhalahat/mdhalascan.git
+git clone https://github.com/mdhalahat/MdhalaScan.git
 cd MdhalaPhishing
 python3 -m venv venv
 source venv/bin/activate
