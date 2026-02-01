@@ -108,10 +108,12 @@ class MdhalaScan:
         print(f"{Fore.WHITE if COLORS_ENABLED else ''}[1] {Fore.GREEN if COLORS_ENABLED else ''}🔗  URL Phishing Scanner  🔗")
         print(f"{Fore.WHITE if COLORS_ENABLED else ''}[2] {Fore.GREEN if COLORS_ENABLED else ''}📧  Email Phishing Scanner  📧")
         print(f"{Fore.WHITE if COLORS_ENABLED else ''}[3] {Fore.GREEN if COLORS_ENABLED else ''}🌐  IP Reputation Checker  🌐")
-        print(f"{Fore.WHITE if COLORS_ENABLED else ''}[4] {Fore.CYAN if COLORS_ENABLED else ''}📊  Phishing Intelligence Database  📊")
-        print(f"{Fore.WHITE if COLORS_ENABLED else ''}[5] {Fore.MAGENTA if COLORS_ENABLED else ''}🛡️  IP Intelligence Database  🛡️")
-        print(f"{Fore.WHITE if COLORS_ENABLED else ''}[6] {Fore.YELLOW if COLORS_ENABLED else ''}🛡️  File Malware Scanner  🛡️")  # NEW OPTION
-        print(f"{Fore.WHITE if COLORS_ENABLED else ''}[7] {Fore.BLUE if COLORS_ENABLED else ''}📚  File Intelligence Database  📚")  # NEW OPTION
+        print(f"{Fore.WHITE if COLORS_ENABLED else ''}[4] {Fore.YELLOW if COLORS_ENABLED else ''}🛡️  File Malware Scanner  🛡️")  
+        print(f"{Fore.CYAN if COLORS_ENABLED else ''}{'-' * 60}")
+        print(f"{Fore.WHITE if COLORS_ENABLED else ''}[5] {Fore.CYAN if COLORS_ENABLED else ''}📊  Phishing Intelligence Database  📊")
+        print(f"{Fore.WHITE if COLORS_ENABLED else ''}[6] {Fore.MAGENTA if COLORS_ENABLED else ''}🛡️  IP Intelligence Database  🛡️")
+        print(f"{Fore.WHITE if COLORS_ENABLED else ''}[7] {Fore.BLUE if COLORS_ENABLED else ''}📚  File Intelligence Database  📚")  
+        print(f"{Fore.CYAN if COLORS_ENABLED else ''}{'-' * 60}")
         print(f"{Fore.WHITE if COLORS_ENABLED else ''}[8] {Fore.YELLOW if COLORS_ENABLED else ''}About")  # Updated from 6 to 8
         print(f"{Fore.WHITE if COLORS_ENABLED else ''}[0] {Fore.RED if COLORS_ENABLED else ''}Exit")
         print(f"{Fore.CYAN if COLORS_ENABLED else ''}{'═' * 60}")
@@ -931,13 +933,7 @@ def main():
                             f.write(f"Threat Level: {reputation['threat_level']}\n")
                         print(f"{Fore.YELLOW if COLORS_ENABLED else ''}Text report saved: {filepath}")
             
-            elif choice == 4:  # Phishing Intelligence Database
-                scanner.run_intelligence_module()
-            
-            elif choice == 5:  # IP Intelligence Database
-                scanner.run_ip_intelligence_module()
-            
-            elif choice == 6:  # NEW: File Malware Scanner
+            elif choice == 4:  # NEW: File Malware Scanner
                 print(f"\n{Fore.CYAN if COLORS_ENABLED else ''}{'═' * 60}")
                 print(f"{Fore.MAGENTA if COLORS_ENABLED else ''}🛡️ FILE MALWARE SCANNER")
                 print(f"{Fore.CYAN if COLORS_ENABLED else ''}{'═' * 60}")
@@ -1035,6 +1031,14 @@ def main():
                         
                         if not (ext_results['malwarebazaar']['found'] or ext_results['threatfox']['found']):
                             print(f"{Fore.GREEN if COLORS_ENABLED else ''}✅ Hash not found in external databases")
+
+            elif choice == 5:  # Phishing Intelligence Database
+                scanner.run_intelligence_module()
+            
+            elif choice == 6:  # IP Intelligence Database
+                scanner.run_ip_intelligence_module()
+            
+            
             
             elif choice == 7:  # NEW: File Intelligence Database
                 scanner.run_file_intelligence_module()
