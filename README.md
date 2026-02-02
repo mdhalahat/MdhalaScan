@@ -22,7 +22,7 @@ A professional-grade command-line tool for detecting phishing threats in URLs , 
 ### Quick Install (Linux/Mac)
 ```bash
 git clone https://github.com/mdhalahat/MdhalaScan.git
-cd MdhalaPhishing
+cd MdhalaScan
 python3 -m venv venv
 source venv/bin/activate  #always use venv environment
 chmod +x setup.sh
