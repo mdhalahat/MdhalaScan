@@ -110,7 +110,7 @@ class MdhalaScan:
         print(f"{Fore.WHITE if COLORS_ENABLED else ''}[3] {Fore.GREEN if COLORS_ENABLED else ''}🌐  IP Reputation Checker  🌐")
         print(f"{Fore.WHITE if COLORS_ENABLED else ''}[4] {Fore.YELLOW if COLORS_ENABLED else ''}🛡️  File Malware Scanner  🛡️")  
         print(f"{Fore.CYAN if COLORS_ENABLED else ''}{'-' * 60}")
-        print(f"{Fore.WHITE if COLORS_ENABLED else ''}[5] {Fore.CYAN if COLORS_ENABLED else ''}📊  Phishing Intelligence Database  📊")
+        print(f"{Fore.WHITE if COLORS_ENABLED else ''}[5] {Fore.CYAN if COLORS_ENABLED else ''}📊  URL / Email Intelligence Database  📊")
         print(f"{Fore.WHITE if COLORS_ENABLED else ''}[6] {Fore.MAGENTA if COLORS_ENABLED else ''}🛡️  IP Intelligence Database  🛡️")
         print(f"{Fore.WHITE if COLORS_ENABLED else ''}[7] {Fore.BLUE if COLORS_ENABLED else ''}📚  File Intelligence Database  📚")  
         print(f"{Fore.CYAN if COLORS_ENABLED else ''}{'-' * 60}")
