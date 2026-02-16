@@ -8,7 +8,7 @@ A professional-grade command-line tool for detecting phishing threats in URLs , 
 
 🔎 What MdhalaScan Does
 
-**- MdhalaScan performs multi-layer threat analysis across different attack surfaces:
+- MdhalaScan performs multi-layer threat analysis across different attack surfaces:
 
 🌐 URL Scanner
 
