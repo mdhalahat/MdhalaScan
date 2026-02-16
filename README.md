@@ -6,16 +6,69 @@ A professional-grade command-line tool for detecting phishing threats in URLs , 
 
 ## Features
 
-- **URL Phishing Scanner**: Multi-layer analysis of URLs
-- **Email Phishing Scanner**: Header and content analysis
-- **IP Scanner**: Multi-layer analysis of IPs
-- **Files Scanner**: Multi-layer analysis of Files
-- **Risk Scoring**: 0-100 threat score with clear risk levels
-- **PDF reports**
-- **Threat Intelligence**
-- **Educational Focus**: Explains WHY something is suspicious
-- **Privacy First**: No data storage or logging
-- **Fast Execution**: Typically < 2 seconds per scan
+🔎 What MdhalaScan Does
+
+MdhalaScan performs multi-layer threat analysis across different attack surfaces:
+
+🌐 URL Scanner
+
+Detects suspicious patterns, domain anomalies, and phishing indicators
+
+Cross-checks URLs with threat intelligence sources
+
+Identifies obfuscation and deceptive structures
+
+📧 Email Scanner
+
+Analyzes headers for spoofing attempts
+
+Detects suspicious content patterns
+
+Validates sender inconsistencies
+
+🌍 IP Address Scanner
+
+Reputation checks
+
+Threat intelligence correlation
+
+Detection of malicious or blacklisted IPs
+
+📁 File Scanner
+
+Identifies suspicious indicators
+
+Multi-layer heuristic analysis
+
+🧠 Threat Intelligence Integration
+
+Correlates scanned indicators with known malicious databases
+
+Supports updated intelligence sources
+
+Enhances detection accuracy using reputation-based analysis
+
+📊 Risk Scoring Engine
+
+Generates a 0–100 threat score
+
+Clear classification (Low / Medium / High / Critical)
+
+Transparent explanation of WHY something is suspicious
+
+📄 Professional PDF Reports
+
+Structured output for documentation and analysis
+
+🔒 Privacy-First Design
+
+No data storage
+
+No logging
+
+Fully local execution
+
+⚡ Fast execution — typically under 2 seconds per scan.
 
 ## Installation
 
