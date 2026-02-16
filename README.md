@@ -12,61 +12,61 @@ A professional-grade command-line tool for detecting phishing threats in URLs , 
 
 🌐 URL Scanner
 
--Detects suspicious patterns, domain anomalies, and phishing indicators
+- Detects suspicious patterns, domain anomalies, and phishing indicators
 
--Cross-checks URLs with threat intelligence sources
+- Cross-checks URLs with threat intelligence sources
 
--Identifies obfuscation and deceptive structures
+- Identifies obfuscation and deceptive structures
 
 📧 Email Scanner
 
--Analyzes headers for spoofing attempts
+- Analyzes headers for spoofing attempts
 
--Detects suspicious content patterns
+- Detects suspicious content patterns
 
--Validates sender inconsistencies
+- Validates sender inconsistencies
 
 🌍 IP Address Scanner
 
--Reputation checks
+- Reputation checks
 
--Threat intelligence correlation
+- Threat intelligence correlation
 
--Detection of malicious or blacklisted IPs
+- Detection of malicious or blacklisted IPs
 
 📁 File Scanner
 
--Identifies suspicious indicators
+- Identifies suspicious indicators
 
--Multi-layer heuristic analysis
+- Multi-layer heuristic analysis
 
 🧠 Threat Intelligence Integration
 
--Correlates scanned indicators with known malicious databases
+- Correlates scanned indicators with known malicious databases
 
--Supports updated intelligence sources
+- Supports updated intelligence sources
 
--Enhances detection accuracy using reputation-based analysis
+- Enhances detection accuracy using reputation-based analysis
 
 📊 Risk Scoring Engine
 
--Generates a 0–100 threat score
+- Generates a 0–100 threat score
 
--Clear classification (Low / Medium / High / Critical)
+- Clear classification (Low / Medium / High / Critical)
 
--Transparent explanation of WHY something is suspicious
+- Transparent explanation of WHY something is suspicious
 
 📄 Professional PDF Reports
 
--Structured output for documentation and analysis
+- Structured output for documentation and analysis
 
 🔒 Privacy-First Design
 
--No data storage
+- No data storage
 
--No logging
+- No logging
 
--Fully local execution
+- Fully local execution
 
 ⚡ Fast execution — typically under 2 seconds per scan.
 
