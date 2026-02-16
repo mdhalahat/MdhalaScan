@@ -76,6 +76,7 @@ A professional-grade command-line tool for detecting phishing threats in URLs , 
 ```bash
 git clone https://github.com/mdhalahat/MdhalaScan.git
 cd MdhalaScan
+sudo apt install python3-venv #if u didn't install venv environment before
 python3 -m venv venv
 source venv/bin/activate  #always use venv environment
 chmod +x setup.sh
