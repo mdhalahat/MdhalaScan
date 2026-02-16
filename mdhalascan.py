@@ -68,7 +68,7 @@ class MdhalaScan:
 {Fore.WHITE}Version: {Fore.GREEN}1.8{Fore.WHITE} | {Fore.WHITE}GitHub: {Fore.CYAN}github.com/mdhalahat
 {Fore.WHITE}Website: {Fore.CYAN}mdhalahat.com{Fore.WHITE} | {Fore.WHITE}Instagram: {Fore.CYAN}@mdhalahat
 {Fore.WHITE}Facebook: MdhalaHat | Tiktok: @mdhala.hat
-{Fore.WHITE}Linkedin: MdhalaHat
+{Fore.WHITE}Linkedin: MdhalaHat | Email: support@mdhalahat.com
 {Fore.YELLOW}{'─' * 60}
 {Fore.RED}{Style.BRIGHT}⚠️  FOR EDUCATIONAL & ETHICAL USE ONLY!
 {Fore.RED}Use only on websites you own or have permission to test.
